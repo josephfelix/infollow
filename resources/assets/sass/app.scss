@@ -1,0 +1,27 @@
+// Reset
+@import "../css/reset.css";
+
+// Fonte instagram
+@import "fonts/_billabong";
+
+// Animate CSS
+@import "../css/animate.css";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// CSS global
+@import "global";
+
+// Página de login
+@import "login";
+
+// Painel
+@import "painel/termos";
+@import "painel/conta";
+
+// Página de contato
+@import "contato";
+
+// Media queries
+@import "responsive";

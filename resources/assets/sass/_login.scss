@@ -1,0 +1,146 @@
+/* Página de login */
+
+#login {
+  width: 317px;
+  height: 253px;
+  background: url(../img/login.png) no-repeat center top;
+  float: left;
+  margin-top: 262px;
+}
+
+input[type=text],
+input[type=password] {
+  color: #777;
+  padding-left: 10px;
+  margin: 10px;
+  margin-top: 12px;
+  margin-left: 18px;
+  width: 290px;
+  height: 35px;
+  border: 1px solid #c7d0d2;
+  border-radius: 2px;
+  box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f5f7f8;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+input[type=text]:hover,
+input[type=password]:hover {
+  border: 1px solid #b6bfc0;
+  box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #f5f7f8;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  border: 1px solid #a8c9e4;
+  box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9;
+}
+
+#lower {
+  background: #ecf2f5;
+  width: 100%;
+  height: 73px;
+  box-shadow: inset 0 1px 1px #fff;
+  border-top: 1px solid #ccc;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+input[type=checkbox] {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.check {
+  margin-left: 3px;
+  font-size: 11px;
+  color: #444;
+  text-shadow: 0 1px 0 #fff;
+}
+
+p.login-container {
+  margin-top: 4px;
+}
+
+input.login-input-no-top {
+  margin-top: -5px;
+}
+
+.instafollow-window {
+  position: absolute;
+  background-color: #efeeee;
+  z-index: 6000;
+  border: 5px solid #666666;
+  -moz-border-radius: 9px 9px 9px 9px;
+  -webkit-border-radius: 9px 9px 9px 9px;
+  -o-border-radius: 9px 9px 9px 9px;
+  border-radius: 9px 9px 9px 9px;
+  padding: 20px;
+  width: 450px;
+  -webkit-animation-name: bounceIn;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: bounceIn;
+  -moz-animation-fill-mode: both;
+  -moz-animation-duration: 1s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: linear;
+  animation-name: bounceIn;
+  animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+.aguarde-text {
+  font-size: 31px;
+  font-family: Billabong, fantasy, tahoma, sans-serif;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+p.login-message {
+  margin: 0;
+  margin-top: -5px;
+  margin-bottom: 17px;
+  font-weight: bold;
+  color: #ff0000;
+  width: 305px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: Tahoma;
+}
+
+/*
+|--------------------------------------------------------------------------
+|    Parte do loading - Buscando informações sobre o usuário
+|--------------------------------------------------------------------------
+|
+*/
+
+.progressbar {
+  width: 500px;
+  border: solid thin;
+  height: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.current-progress {
+  background-color: navy;
+  height: 40px;
+  float: left;
+}
+
+.porcentagem-progresso {
+  position: absolute;
+  left: 48%;
+  top: 30%;
+  font-weight: bold;
+}

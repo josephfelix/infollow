@@ -1,0 +1,305 @@
+/*
+|--------------------------------------------------------------------------
+|   InstaFollow CSS
+|--------------------------------------------------------------------------
+|
+|    CSS principal usado no site
+|
+*/
+
+
+::selection {
+  color: #fff;
+  text-shadow: none;
+  background: #444;
+}
+
+::-moz-selection {
+  color: #fff;
+  text-shadow: none;
+  background: #444;
+}
+
+html, body {
+  width: 100%;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+}
+
+body > #wrap {
+  height: auto;
+  min-height: 100%;
+}
+
+body {
+  font: 14px Arial, Helvetica, sans-serif;
+  color: #000;
+  background-color: #1c5380;
+}
+
+#main {
+  padding-bottom: 70px;
+}
+
+#footer {
+  border-top: solid 1px rgb(19, 19, 92);
+  position: relative;
+  margin-top: -70px;
+  height: 70px;
+  clear: both;
+  background-color: #1c5380;
+}
+
+#footer .menu-rodape {
+  text-align: center;
+  padding-top: 10px;
+  border-top: solid 1px rgb(36, 88, 131);
+}
+
+#footer .menu-rodape ul {
+  list-style: none;
+}
+
+#footer .menu-rodape ul li {
+  display: inline;
+  margin-right: 60px;
+}
+
+#footer .menu-rodape ul li a {
+  color: #fff;
+  font-family: Billabong, fantasy, tahoma, sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 25px;
+}
+
+#footer .instafollow-copyright {
+  color: rgb(255, 255, 255);
+  letter-spacing: 2.2px;
+  font-size: 11px;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+img {
+  border: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.clear {
+  clear: both !important;
+}
+
+a {
+  text-decoration: none;
+  color: #0074AA;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+fieldset, img {
+  border: none;
+}
+
+.alignleft {
+  float: left !important;
+  margin: 0 10px 0 0 !important;
+}
+
+.alignright {
+  float: right !important;
+  margin: 0 0 0 10px !important;
+}
+
+.aligncenter {
+  margin: 3px auto !important;
+  display: block !important;
+}
+
+ul li, li {
+  list-style: none;
+}
+
+.box {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+*:focus {
+  outline: none;
+}
+
+#header {
+  width: auto;
+  height: 370px;
+  background-color: #1c5380;
+  background-image: url("../img/header.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+#header_centro {
+  width: 1000px;
+  height: 384px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#header_centro_logo {
+  position: absolute;
+  top: 30px;
+  left: 60%;
+  overflow: hidden;
+  margin-left: -25%;
+}
+
+#header_centro_logo:hover {
+  overflow: hidden;
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  Filter: Alpha(Opacity=50);
+}
+
+.billabong {
+  font-family: Billabong, Tahoma, sans-serif !important;
+}
+
+#container {
+  padding: 0;
+  margin: 0;
+  -webkit-transition: all 250ms ease 15ms;
+  -moz-transition: all 250ms ease 15ms;
+  -o-transition: all 250ms ease 15ms;
+  transition: all 250ms ease 15ms;
+}
+
+.corpo-post {
+  overflow: hidden;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-size: 14px;
+  margin-bottom: 20px;
+  height: 450px;
+  padding-left: 10px;
+  float: right;
+  width: 651px;
+  margin-top: 190px;
+  background-color: #FFFFFF;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.corpo-post a {
+  color: #ff0000;
+}
+
+.corpo-post p {
+  width: 568px;
+  margin-left: 10px;
+}
+
+.apresentacao-home-texto {
+  font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+  font-size: 13px;
+  color: rgb(100, 100, 100);
+}
+
+.titulo-apresentacao-home {
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(100, 129, 243);
+}
+
+.hr-home {
+  width: 598px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 0;
+  border-color: rgb(228, 228, 228);
+  border-bottom: none;
+}
+
+.input-error {
+  border: 1px solid #f37f69 !important;
+  -moz-box-shadow: 0 0 0 5px #f6cec7, inset 0 0 5px 5px #faf9f9 !important;
+  -webkit-box-shadow: 0 0 0 5px #f6cec7, inset 0 0 5px 5px #faf9f9 !important;
+  box-shadow: 0 0 0 5px #f6cec7, inset 0 0 5px 5px #faf9f9 !important;
+}
+
+#container {
+  position: absolute;
+  width: 340px;
+  height: 280px;
+  top: 50%;
+  left: 15%;
+  margin-top: 70px;
+  margin-left: -170px;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  -webkit-animation-name: bounceIn;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: bounceIn;
+  -moz-animation-fill-mode: both;
+  -moz-animation-duration: 1s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: linear;
+  animation-name: bounceIn;
+  animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+form {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+label {
+  color: #555;
+  display: inline-block;
+  margin-left: 18px;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+p a {
+  font-size: 11px;
+  color: #aaa;
+  float: left;
+  margin-top: 20px;
+  padding: 10px;
+  margin-right: 10px;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+p a:hover {
+  color: #555;
+}
+
+input {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+  outline: none;
+}
